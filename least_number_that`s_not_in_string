@@ -1,0 +1,9 @@
+st = input()
+if st == 'cancel':
+    quit('FuckMordaCap')
+liste = st.split(' ')
+liste = [int(num) for num in liste]
+for i in range(1, max(liste) + 1):
+    if i not in liste:
+        print(i)
+        break
