@@ -1,0 +1,5 @@
+liste, answ = input().split(' '), []
+for word in liste:
+    if word not in answ:
+        answ.append(word)
+print(*answ)
